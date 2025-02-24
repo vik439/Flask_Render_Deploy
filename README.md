@@ -25,7 +25,7 @@ Ensure your Flask app is structured like this:
 │── README.md
 ```
 
-### ** `app.py` (Main Flask Application)**
+### **`app.py` (Main Flask Application)**
 Your Flask app should be configured to listen on **0.0.0.0** and a dynamic port (`PORT` is assigned by Render):
 
 ```python
@@ -45,7 +45,7 @@ if __name__ == '__main__':
 
 ---
 
-### ** `requirements.txt` (Dependencies)**
+### **`requirements.txt` (Dependencies)**
 Create a `requirements.txt` file listing all dependencies:
 
 ```txt
