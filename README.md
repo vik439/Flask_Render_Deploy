@@ -5,7 +5,7 @@ This guide explains how to deploy a **Flask application** to **Render** using **
 
 ---
 
-## ** Prerequisites**
+## **Prerequisites**
 Before deploying, ensure that you have:
 - A **GitHub account** with your Flask app pushed to a repository  
 - A **Render account** ([Sign Up Here](https://render.com))  
@@ -14,7 +14,7 @@ Before deploying, ensure that you have:
 
 ---
 
-## ** Step 1: Prepare Your Flask Application**
+## **Step 1: Prepare Your Flask Application**
 Ensure your Flask app is structured like this:
 
 ```
@@ -57,7 +57,7 @@ Render uses **Gunicorn** to run the Flask app efficiently in production.
 
 ---
 
-### ** `render.yaml` (Optional for Automated Deployments)**
+### **`render.yaml` (Optional for Automated Deployments)**
 If you want **Render to auto-deploy on GitHub updates**, create a `render.yaml` file:
 
 ```yaml
@@ -72,7 +72,7 @@ services:
 
 ---
 
-## ** Step 2: Push Your Flask App to GitHub**
+## **Step 2: Push Your Flask App to GitHub**
 Render deploys from **GitHub**, so push your project to a repository:
 
 ```bash
@@ -86,7 +86,7 @@ git push -u origin main
 
 ---
 
-## ** Step 3: Deploy to Render**
+## **Step 3: Deploy to Render**
 1. **Go to Render Dashboard** → [Render](https://dashboard.render.com/)  
 2. **Click "New Web Service"**  
 3. **Select "Connect a GitHub Repository"**  
@@ -109,7 +109,7 @@ git push -u origin main
 
 ---
 
-## **📌 Step 4: Access Your Flask App**
+## **Step 4: Access Your Flask App**
 Once deployed, Render provides a **public URL** like:
 
 ```
@@ -120,7 +120,7 @@ Visit the URL to check if your app is running.
 
 ---
 
-## ** Step 5: Automate Future Deployments**
+## **Step 5: Automate Future Deployments**
 Whenever you update your Flask app in **GitHub**, push the changes:
 
 ```bash
@@ -134,7 +134,7 @@ Render **automatically detects changes** and **redeploys** the updated app.
 
 ---
 
-## ** Conclusion**
+## **Conclusion**
  **Deploying Flask on Render is fast and free**—no need to configure EC2 or Heroku.  
  **GitHub integration makes updates automatic**.  
  **Gunicorn ensures production-ready performance**.  
